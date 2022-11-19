@@ -5,7 +5,7 @@ include "vendor/autoload.php";
 use App\AuthClient;
 
 function loginUser(){
-    $token = '8b5bcf450e791c8f738eee4aac4e5533adb1579157715b20f9d5f43c0e809a8453863ab9b849a6ef75a65fc07a841c2d5a9f1ea55d81150bc2481e719d89b15439906a4e80bfc886019584be3c6aa0c70fbd01a3be3f3f3e5235a8fa809f9eab7203fddf3fb239a663180f3d7ed0ecd2f8ae8ff3ebb0453436319bd4beb05cce';
+    $token = '54dcb5637ad84de604350cfd36662df8b44628f9bce0134cd3d910aa7030aca272472f1e70627a304076da460746a61c32500e0fc64ecf1e8c935772efcc0d25a4cc7b50e95b7755e0b18fbbcaee15a5be78eeb37baa8cb2d308df66d052fd5b96d6a8e0f8feb2d8cd812ef936e64f07b16a1c63b05ca0380d8e983220c9c594';
 
 $client = new AuthClient([
     'base_uri' => 'http://localhost:1337/api/'
