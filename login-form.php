@@ -46,13 +46,13 @@
         <div class="form-group">
         	<div class="input-group">
                 <span class="input-group-addon"><i class="fa fa-user"></i></span>
-                <input type="text" class="form-control" placeholder="Username" required="required">
+                <input type="text" id="username" name="username" class="form-control" placeholder="Username" required="required">
             </div>
         </div>
 		<div class="form-group">
             <div class="input-group">
                 <span class="input-group-addon"><i class="fa fa-lock"></i></span>
-                <input type="password" class="form-control" placeholder="Password" required="required">
+                <input type="password" id="password" name="password" class="form-control" placeholder="Password" required="required">
             </div>
         </div>        
         <div class="form-group">

@@ -2,7 +2,7 @@
     "name": "user/registration-login",
     "autoload": {
         "psr-4": {
-            "User\\RegistrationLogin\\": "src/"
+            "App\\": "src/"
         }
     },
     "authors": [
